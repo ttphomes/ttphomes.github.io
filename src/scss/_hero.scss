@@ -1,0 +1,41 @@
+.hero {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    color: white;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/hero-1920-1271.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    h1 {
+        font-size: 5em;
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+    .btn {
+        
+        display: block;
+        width: 200px;
+        
+        padding: 1em;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+        
+        border: 3px solid white;
+        border-radius: 20px;
+        
+        background-color: rgba(150, 115, 220, 0.8);
+        
+    }
+}

@@ -1,0 +1,44 @@
+doctype
+
+html(lang='en')
+    
+    head
+        
+        title TTP Homes
+        
+        link(rel='stylesheet', type='text/css' href='/dist/css/app.css')
+        link(rel='stylesheet', type='text/css' href='/dist/css/fontawesome.min.css')
+        
+    body
+        
+        header#header
+            include header.pug
+        
+        section#content
+            
+            article#home.section.hero
+                include home.pug
+            
+            article#about.section
+                include about.pug
+            
+            article#team.section
+                include team.pug
+            
+            article#services.section
+                include services.pug
+            
+            article#projects.section
+                include projects.pug
+            
+            article#contact.section
+                include contact.pug
+                
+            
+        aside
+        
+        footer#footer
+            include footer.pug
+        
+        script(src='/dist/js/jquery.min.js')
+        script(src='/dist/js/bootstrap.min.js')
